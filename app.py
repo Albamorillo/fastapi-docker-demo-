@@ -2,4 +2,4 @@ from fastapi import FastAPI
 app = FastAPI() 
 @app.get("/") 
 def read_root(): 
-return {"message": "Olá turma, este é meu primeiro container com FastAPI!"} 
+  return {"message": "Olá turma, este é meu primeiro container com FastAPI!"} 
